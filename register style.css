@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bgimage.png");
+    background-size: 100% 100%;
+}
+
+.main-box h1 {
+    font-size: 40px;
+    color: #5D3915;
+}
+.main-box {
+    width: 400px;
+    height: 400px;
+    margin: 30px 0;
+    border: 1px solid;
+    border-radius: 40px;
+    background: #f0Ead2;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    left: 65%;
+
+}
+
+.username input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #5D3915;
+}
+
+.username i {
+    position: absolute;
+    top: 31.8%;
+    left: 80%;
+}
+
+.email i {
+    position: absolute;
+    top: 45%;
+    left: 80%;
+}
+.email input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #5D3915;
+}
+
+.password input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #5D3915;
+}
+
+.password i {
+    position: absolute;
+    top: 58%;
+    left: 80%;
+}
+
+.confirm-pass input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #5D3915;
+}
+
+.confirm-pass i {
+    position: absolute;
+    top: 71%;
+    left: 80%;
+}
+
+.username {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.email {
+    padding: 10px;
+}
+
+.password {
+    padding: 10px;
+}
+
+.confirm-pass {
+    padding: 10px;
+}
+
+.regi-button {
+    padding: 10px;
+}
+
+.login-button {
+    padding: 10px;
+}
+
+.options {
+    color:#5D3915;
+    position: absolute;
+    left: 9%;
+    top: 88%;
+    padding: 20px;
+}
+
+.forgot {
+    position: absolute;
+    left: 57%;
+    top: 88%;
+    padding: 20px;
+}
+
+.regi-click {
+    width: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: 1px solid #5D3915;
+    border-radius: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.regi-click:hover {
+    opacity: 0.8;
+    background-color: #5D3915;
+    color: white;
+}
+
+
